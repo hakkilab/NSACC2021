@@ -1,0 +1,2 @@
+#Date: 2021-04-19 14:56:00 EST (UTC-0400)
+2021-03-16 08:28:41 36 192.168.165.42 200 TCP_MISS 12734 479 GET http rngfn.invalid property - - DIRECT 10.78.211.175 application/octet-stream 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75' PROXIED none - 192.168.165.82 SG-HTTP-Service - none -
