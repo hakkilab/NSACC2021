@@ -1,0 +1,50 @@
+Subject: Doctor's Appointment
+From: legault.thomas@oops.net
+To: oops_tech@oops.net
+Cc:
+Bcc:
+Date: Tue, 16 Mar 2021 05:04:14 +0000
+Message-ID: <161587105400.22130.11996737803252853002@oops.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4576404569982207385=="
+
+--===============4576404569982207385==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+All,
+
+I have a denist's appointment @ 8:30 am today --and will return after the appointment around 9:30am.
+
+Cheers,
+Thomas
+
+Cordially,
+Thomas Z. Legault
+OOPS Inc.
+488 Hart Freeway Apt. 372
+Lindseyview, NV 44104
+Tel: 559-223-5757
+
+--===============4576404569982207385==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+	<p>All,</p>
+
+	<p>I have a denist&#8217;s appointment @ 8:30 am today &#8212;and will return after the appointment around 9:30am.</p>
+
+	<p>Cheers,<br />
+Thomas</p>
+
+	<p>Cordially,<br />
+Thomas Z. Legault<br />
+OOPS Inc.<br />
+488 Hart Freeway Apt. 372<br />
+Lindseyview, NV 44104<br />
+Tel: 559-223-5757</p>
+
+--===============4576404569982207385==--
