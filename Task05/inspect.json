@@ -1,0 +1,106 @@
+[
+    {
+        "Id": "sha256:9ad31e764aa94f91a960bc0ab5295854a9d3a8e2a42e4ec481ddfefa0474affd",
+        "RepoTags": [
+            "panic-nightly-test:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2021-03-25T05:27:17.707664Z",
+        "Container": "14d1ff85a2b7c1141db80ebe85fdc10037a61216e2f1d3e7666f4799b9b9c454",
+        "ContainerConfig": {
+            "Hostname": "14d1ff85a2b7",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "LABEL docker.cmd.build=docker build --no-cache=true --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --build-arg VCS_REF=$(git log -n 1 --abbrev-commit --pretty='%H') ."
+            ],
+            "Image": "sha256:a8796274fb95160375e176c1212ba1d9619aecb4056cfa499f5a305e5c5d1beb",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/src",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "docker.cmd.build": "docker build --no-cache=true --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --build-arg VCS_REF=$(git log -n 1 --abbrev-commit --pretty='%H') .",
+                "maintainer": "mccarver.jane@panic.invalid",
+                "org.opencontainers.image.author": "Jane Mccarver",
+                "org.opencontainers.image.created": "2021-03-25T05:27:17Z",
+                "org.opencontainers.image.description": "Build and tests container for PANIC. Runs nightly.",
+                "org.opencontainers.image.revision": "be3d94bc8340cc6db649f0339b7be4abbf2539da",
+                "org.opencontainers.image.title": "PANIC Nightly Build and Test"
+            }
+        },
+        "DockerVersion": "20.10.6",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "./build_test.sh"
+            ],
+            "Image": "sha256:a8796274fb95160375e176c1212ba1d9619aecb4056cfa499f5a305e5c5d1beb",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/src",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "docker.cmd.build": "docker build --no-cache=true --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --build-arg VCS_REF=$(git log -n 1 --abbrev-commit --pretty='%H') .",
+                "maintainer": "mccarver.jane@panic.invalid",
+                "org.opencontainers.image.author": "Jane Mccarver",
+                "org.opencontainers.image.created": "2021-03-25T05:27:17Z",
+                "org.opencontainers.image.description": "Build and tests container for PANIC. Runs nightly.",
+                "org.opencontainers.image.revision": "be3d94bc8340cc6db649f0339b7be4abbf2539da",
+                "org.opencontainers.image.title": "PANIC Nightly Build and Test"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 387221930,
+        "VirtualSize": 387221930,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/51d62bc5a27f22da024e22beed9e524175ea46cd624da3113c6f6b9517d7199b/diff:/var/lib/docker/overlay2/9feae5bb5f20718f53654a0ec914d83ed9aa5f6b3f66e04d02dcb9293ed8ee78/diff:/var/lib/docker/overlay2/d1fb4b53371afe5f837c7dd80ebba95d1638919b4b95c3687fd0529ba89fb371/diff:/var/lib/docker/overlay2/20de6be30989acf8daf208c969a37cb1cd3ab8b84bc280df72b32921babcd513/diff",
+                "MergedDir": "/var/lib/docker/overlay2/2cf0981657d1a1851cfee49ac08f0d61c88d9a96d792447b0f8f45a2e1ae437d/merged",
+                "UpperDir": "/var/lib/docker/overlay2/2cf0981657d1a1851cfee49ac08f0d61c88d9a96d792447b0f8f45a2e1ae437d/diff",
+                "WorkDir": "/var/lib/docker/overlay2/2cf0981657d1a1851cfee49ac08f0d61c88d9a96d792447b0f8f45a2e1ae437d/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:061bf8cdd8b78c43df6154823b3bd3d115f1a43fea5c4db6471d747548cf6a02",
+                "sha256:29e822412f0e724635e2c5a19519631814922bfbdb072d98664de46fab447202",
+                "sha256:2a2cad17edb687a2a9dbc7b227734e08a34a8ef80efd250e2bb444d6b9dedafd",
+                "sha256:6b9b083aee03b678c56a6cc7a310e2b4f1f682f4eb70e4a6d176e58f2a138246",
+                "sha256:5e6c52d9487018df1cfea550a679ad2668a46b2f60a8113fbc45b03cae2f5ba8"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
